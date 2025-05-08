@@ -1,0 +1,75 @@
+# Copyright (C) 2024 Delivium
+# This file is distributed under the same license as the Delivium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Delivium 1.0.0\n"
+"Report-Msgid-Bugs-To: https://delivium.top/support\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: admin/class-delivium-admin.php:2117
+msgid "Driver assigned"
+msgstr "تم تعيين السائق"
+
+#: includes/class-delivium-orders.php:1051
+msgid "Out for delivery"
+msgstr "خارج للتوصيل"
+
+#: includes/class-delivium-orders.php:1052
+msgid "Failed delivery"
+msgstr "فشل التوصيل"
+
+#: includes/class-delivium-assigned-order-email-driver.php:74
+msgid "New delivery assigned"
+msgstr "تم تعيين توصيل جديد"
+
+#: includes/class-delivium-password.php:229
+msgid "Reset password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: includes/class-delivium-application.php:81
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: admin/class-delivium-admin.php:2051
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/class-delivium-screens.php:778
+msgid "Driver Information"
+msgstr "معلومات السائق"
+
+#: includes/class-delivium-driver.php:718
+msgid "Name:"
+msgstr "الاسم:"
+
+#: includes/class-delivium-driver.php:838
+msgid "Phone:"
+msgstr "الهاتف:"
+
+#: includes/class-delivium-reports.php:469
+msgid "Delivery Status"
+msgstr "حالة التوصيل"
+
+#: includes/class-delivium-order.php:853
+msgid "Order #%s"
+msgstr "الطلب #%s"
+
+#: includes/class-delivium-order.php:834
+msgid "Status:"
+msgstr "الحالة:"
+
+#: includes/class-delivium-order.php:884
+msgid "Estimated Delivery:"
+msgstr "موعد التوصيل المتوقع:"
+
+#: includes/class-delivium-order.php:713
+msgid "No order found."
+msgstr "لم يتم العثور على الطلب." 

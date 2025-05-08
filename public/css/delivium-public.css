@@ -1,0 +1,288 @@
+/**
+ * Public styles for the Delivium plugin
+ */
+
+/* Tracking Container */
+.delivium-tracking-container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delivium-tracking-header {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+.delivium-tracking-header h2 {
+    margin: 0 0 0.5em;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Status Display */
+.delivium-status-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.delivium-status {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #2271b1;
+    padding: 0.5em 1em;
+    background: #f0f6fc;
+    border-radius: 4px;
+}
+
+.delivium-estimated-time {
+    margin-left: 1em;
+    color: #666;
+}
+
+/* Driver Information */
+.delivium-driver-info {
+    margin-bottom: 1.5em;
+    padding: 1em;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.delivium-driver-info.hidden {
+    display: none;
+}
+
+.delivium-driver-info h3 {
+    margin: 0 0 0.5em;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.driver-details {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5em;
+}
+
+.driver-details dt {
+    font-weight: 600;
+    color: #666;
+}
+
+/* Map Container */
+.delivium-map {
+    height: 400px;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.delivium-map-placeholder {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border: 1px dashed #ddd;
+}
+
+.delivium-map-placeholder p {
+    color: #666;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Rating Form */
+.delivium-rating-form {
+    margin-top: 2em;
+    padding-top: 1.5em;
+    border-top: 1px solid #eee;
+}
+
+.delivium-rating-form h3 {
+    margin: 0 0 1em;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.rating-stars {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.rating-stars input[type="radio"] {
+    display: none;
+}
+
+.rating-stars label {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #ddd;
+}
+
+.rating-stars input[type="radio"]:checked ~ label {
+    color: #ffd700;
+}
+
+.rating-comment {
+    margin-bottom: 1em;
+}
+
+.rating-comment textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Buttons */
+.delivium-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.delivium-button:hover,
+.delivium-button:focus {
+    background: #135e96;
+    color: #fff;
+}
+
+.delivium-button:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+}
+
+.delivium-button.secondary {
+    background: #f0f0f1;
+    color: #2271b1;
+}
+
+.delivium-button.secondary:hover,
+.delivium-button.secondary:focus {
+    background: #ddd;
+    color: #135e96;
+}
+
+/* Messages */
+.delivium-message {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+
+.delivium-message.success {
+    background: #ecf8e6;
+    color: #2a5a27;
+    border: 1px solid #c3e6cb;
+}
+
+.delivium-message.error {
+    background: #fbeaea;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.delivium-rating-success {
+    color: #2a5a27;
+    padding: 1em;
+    background: #ecf8e6;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .delivium-tracking-container {
+        margin: 1em;
+        padding: 1em;
+    }
+
+    .delivium-status-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .delivium-estimated-time {
+        margin: 0.5em 0 0;
+    }
+
+    .delivium-map {
+        height: 300px;
+    }
+
+    .rating-stars {
+        justify-content: center;
+    }
+}
+
+.delivium-driver-box {
+    padding: 10px;
+}
+
+.delivium-driver-box label {
+    font-weight: bold;
+}
+
+.delivium-driver-box select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.delivium-tracking-info {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.delivium_helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.delivium_order_image {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#delivium_page.tracking {
+    padding: 20px 0;
+    background: #f5f5f5;
+    min-height: 100vh;
+}
+
+.delivium_notice {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#delivium_unassign_alert,
+#delivium_unassign_success,
+#delivium_unassign_failed {
+    display: none;
+}
+
+.delivium_order_checkbox {
+    margin: 5px 0;
+} 

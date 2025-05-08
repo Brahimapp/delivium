@@ -1,0 +1,484 @@
+# Copyright (C) 2024 Delivium Team
+# This file is distributed under the same license as the Delivium plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Delivium 1.0.0\n"
+"Report-Msgid-Bugs-To: https://delivium.top/support\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: delivium\n"
+
+#: admin/class-delivium-admin.php:123
+msgid "Delivium Settings"
+msgstr ""
+
+#: admin/class-delivium-admin.php:124
+msgid "Delivium"
+msgstr ""
+
+#: admin/class-delivium-admin.php:138
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-delivium-admin.php:139
+msgid "Driver Settings"
+msgstr ""
+
+#: admin/class-delivium-admin.php:140
+msgid "Tracking Settings"
+msgstr ""
+
+#: admin/class-delivium-admin.php:141
+msgid "Notification Settings"
+msgstr ""
+
+#: admin/class-delivium-admin.php:155
+msgid "Enable Driver Assignment"
+msgstr ""
+
+#: admin/class-delivium-admin.php:163
+msgid "Enable Real-time Tracking"
+msgstr ""
+
+#: admin/class-delivium-admin.php:171
+msgid "Enable SMS Notifications"
+msgstr ""
+
+#: admin/class-delivium-admin.php:179
+msgid "SMS Provider"
+msgstr ""
+
+#: admin/class-delivium-admin.php:187
+msgid "API Key"
+msgstr ""
+
+#: admin/class-delivium-admin.php:195
+msgid "Default Message Template"
+msgstr ""
+
+#: public/class-delivium-public.php:156
+msgid "Delivery Status"
+msgstr ""
+
+#: public/class-delivium-public.php:164
+msgid "Estimated delivery time: %s"
+msgstr ""
+
+#: public/class-delivium-public.php:178
+msgid "Rate Your Delivery"
+msgstr ""
+
+#: public/class-delivium-public.php:182
+msgid "Rating"
+msgstr ""
+
+#: public/class-delivium-public.php:185
+msgid "Select Rating"
+msgstr ""
+
+#: public/class-delivium-public.php:188
+msgid "Star"
+msgid_plural "Stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-delivium-public.php:195
+msgid "Feedback"
+msgstr ""
+
+#: public/class-delivium-public.php:201
+msgid "Submit Rating"
+msgstr ""
+
+#: public/class-delivium-public.php:210
+msgid "Delivery Address"
+msgstr ""
+
+#: public/class-delivium-public.php:214
+msgid "Address"
+msgstr ""
+
+#: public/class-delivium-public.php:220
+msgid "Enter your delivery address"
+msgstr ""
+
+#: public/class-delivium-public.php:227
+msgid "Delivery Instructions"
+msgstr ""
+
+#: public/class-delivium-public.php:232
+msgid "Any special instructions for the delivery?"
+msgstr ""
+
+#: public/class-delivium-public.php:237
+msgid "Save Address"
+msgstr ""
+
+#: includes/class-delivium-activator.php:36
+msgid "Activating Delivium plugin..."
+msgstr ""
+
+#: includes/class-delivium-deactivator.php:36
+msgid "Deactivating Delivium plugin..."
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Delivium"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://delivium.top"
+msgstr ""
+
+#. Description of the plugin
+msgid "A comprehensive delivery management solution for WooCommerce stores."
+msgstr ""
+
+#. Author of the plugin
+msgid "Delivium Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://delivium.top"
+msgstr ""
+
+#: includes/class-delivium-start-delivery-email.php:52
+msgid "Your order #%s delivery has started"
+msgstr ""
+
+#: includes/class-delivium-start-delivery-email.php:89
+msgid "Not available"
+msgstr ""
+
+#: includes/class-delivium-sms.php:41
+msgid "Failed to send SMS, the SMS provider is missing."
+msgstr ""
+
+#: includes/class-delivium-sms.php:44
+msgid "Failed to send SMS, the SMS provider is not supported."
+msgstr ""
+
+#: includes/class-delivium-sms.php:49
+msgid "Failed to send SMS, the SID is missing."
+msgstr ""
+
+#: includes/class-delivium-sms.php:54
+msgid "Failed to send SMS, the auth token is missing."
+msgstr ""
+
+#: includes/class-delivium-sms.php:59
+msgid "Failed to send SMS, the SMS phone number is missing."
+msgstr ""
+
+#: includes/class-delivium-sms.php:63
+msgid "Failed to send SMS, the phone number is missing."
+msgstr ""
+
+#: includes/class-delivium-sms.php:66
+msgid "Failed to send SMS, the SMS text is missing."
+msgstr ""
+
+#: includes/class-delivium-sms.php:183
+msgid "SMS has been sent successfully to %s"
+msgstr ""
+
+#: includes/class-delivium-sms.php:186
+msgid "Failed to send SMS to %s"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:25
+msgid "Delivery Status"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:31
+msgid "Order #%s"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:34
+msgid "Status:"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:41
+msgid "Driver Information"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:43
+msgid "Name:"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:48
+msgid "Phone:"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:56
+msgid "Estimated Delivery:"
+msgstr ""
+
+#: public/partials/delivium-public-display.php:65
+msgid "No order found."
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:25
+msgid "Delivery Analytics"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:33
+msgid "From:"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:35
+msgid "To:"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:36
+msgid "Filter"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:45
+msgid "Total Deliveries"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:49
+msgid "Successful Deliveries"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:60
+msgid "Failed Deliveries"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:71
+msgid "Average Delivery Time"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:73
+#: admin/partials/delivium-admin-analytics.php:155
+msgid "minutes"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:82
+msgid "Delivery Volume"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:88
+msgid "Delivery Performance"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:96
+msgid "Detailed Statistics"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:100
+msgid "Driver"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:101
+msgid "Success Rate"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:102
+msgid "Average Time"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:103
+msgid "Customer Rating"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:187
+msgid "Daily Deliveries"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:207
+msgid "On Time"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:207
+msgid "Delayed"
+msgstr ""
+
+#: admin/partials/delivium-admin-analytics.php:207
+msgid "Failed"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:22
+msgid "Delivery Time Slots"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:23
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:30
+msgid "Calendar View"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:35
+msgid "List View"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:45
+msgid "Previous Month"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:46
+msgid "Today"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:47
+msgid "Next Month"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:57
+msgid "Sunday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:58
+msgid "Monday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:59
+msgid "Tuesday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:60
+msgid "Wednesday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:61
+msgid "Thursday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:62
+msgid "Friday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:63
+msgid "Saturday"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:146
+msgid "Date"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:147
+msgid "Time Slot"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:148
+msgid "Capacity"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:149
+msgid "Available"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:150
+msgid "Status"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:151
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:171
+msgid "Full"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:173
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:174
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:191
+msgid "Default Time Slots"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:199
+msgid "Remove"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:202
+msgid "Add Time Slot"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:207
+msgid "Advance Booking"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:210
+msgid "Number of days in advance customers can book deliveries."
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:214
+msgid "Cut-off Time"
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:217
+msgid "Hours before delivery time to stop accepting orders."
+msgstr ""
+
+#: admin/partials/delivium-admin-timeslots.php:220
+msgid "Save Settings"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:22
+msgid "Delivery Zones"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:23
+msgid "Add New"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:32
+msgid "Zone Name"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:33
+msgid "Coverage Area"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:34
+msgid "Delivery Fee"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:35
+msgid "Minimum Order"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:44
+msgid "Active"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:44
+msgid "Inactive"
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:56
+msgid "No delivery zones found."
+msgstr ""
+
+#: admin/partials/delivium-admin-zones.php:95
+msgid "Draw the delivery zone on the map or enter coordinates manually."
+msgstr ""
+
+#. JavaScript strings
+msgid "invalid_time_range"
+msgstr "End time must be after start time."
+
+msgid "fill_all_fields"
+msgstr "Please fill in all required fields."
+
+msgid "confirm_delete"
+msgstr "Are you sure you want to delete this item?"
+
+msgid "draw_zone"
+msgstr "Please draw a delivery zone on the map." 

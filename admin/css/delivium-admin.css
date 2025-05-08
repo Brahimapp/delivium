@@ -1,0 +1,662 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.delivium-page {
+  margin: 0 20px 0 0;
+}
+
+.delivium-page .nav-tab-wrapper {
+  margin-bottom: 20px;
+}
+
+.delivium-page .form-table th {
+  width: 270px;
+}
+
+.delivium-page .form-table td {
+  vertical-align: top;
+}
+
+.delivium-page .form-table td p.description {
+  margin-top: 8px;
+}
+
+.delivium-page .form-table td .description {
+  margin-top: 8px;
+  display: block;
+}
+
+.delivium-page .form-table td select {
+  min-width: 200px;
+}
+
+.delivium-page .form-table td input[type="text"] {
+  min-width: 300px;
+}
+
+.delivium-page .form-table td textarea {
+  min-width: 300px;
+  min-height: 100px;
+}
+
+.delivium-page .submit {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Driver application form */
+.delivium-application-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.delivium-application-form .form-group {
+  margin-bottom: 15px;
+}
+
+.delivium-application-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.delivium-application-form input[type="text"],
+.delivium-application-form input[type="email"],
+.delivium-application-form input[type="tel"],
+.delivium-application-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.delivium-application-form .btn-primary {
+  background: #0073aa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delivium-application-form .btn-primary:hover {
+  background: #005177;
+}
+
+/* Reports page */
+.delivium-reports-page .date-filters {
+  margin-bottom: 20px;
+}
+
+.delivium-reports-page .report-section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.delivium-reports-page .report-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Responsive tables */
+@media screen and (max-width: 782px) {
+  .delivium-page .form-table td {
+    padding: 15px 10px;
+  }
+  
+  .delivium-page .form-table td input[type="text"],
+  .delivium-page .form-table td select {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
+}
+
+/**
+ * Admin styles for the Delivium plugin
+ *
+ * @link       https://delivium.top
+ * @since      1.0.0
+ */
+
+/* Analytics Page */
+.delivium-analytics-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.delivium-analytics-cards .card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.delivium-analytics-cards .card h3 {
+    margin: 0 0 15px;
+    font-size: 14px;
+    color: #1d2327;
+}
+
+.delivium-analytics-cards .card-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2271b1;
+    margin-bottom: 10px;
+}
+
+.delivium-analytics-cards .card-value.success {
+    color: #00a32a;
+}
+
+.delivium-analytics-cards .card-value.failure {
+    color: #d63638;
+}
+
+.delivium-analytics-cards .card-percentage {
+    font-size: 14px;
+    color: #50575e;
+}
+
+/* Charts */
+.delivium-analytics-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.chart-container {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    border-radius: 4px;
+    min-height: 300px;
+}
+
+.chart-container h2 {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #1d2327;
+}
+
+/* Detailed Statistics */
+.delivium-analytics-details {
+    margin: 30px 0;
+}
+
+.delivium-analytics-details h2 {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #1d2327;
+}
+
+/* Date Range Filter */
+.tablenav.top {
+    margin: 20px 0;
+}
+
+.tablenav.top input[type="date"] {
+    margin: 0 10px;
+}
+
+/* Star Rating */
+.delivium-analytics-details td:last-child {
+    color: #dba617;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .delivium-analytics-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .delivium-analytics-charts {
+        grid-template-columns: 1fr;
+    }
+
+    .chart-container {
+        min-height: 250px;
+    }
+
+    .tablenav.top input[type="date"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* Time Slots Page */
+.delivium-calendar-view table {
+    table-layout: fixed;
+}
+
+.calendar-day {
+    min-height: 100px;
+    padding: 10px;
+}
+
+.day-number {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.time-slots {
+    font-size: 12px;
+}
+
+.time-slot {
+    background: #f0f0f1;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+}
+
+.slot-capacity {
+    color: #50575e;
+    margin-left: 5px;
+}
+
+/* Delivery Zones Page */
+.delivium-zone-form .form-table td {
+    padding: 15px 10px;
+}
+
+#zone_map {
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+/* Common Elements */
+.wp-heading-inline {
+    margin-right: 10px !important;
+}
+
+.page-title-action {
+    margin-left: 4px;
+    padding: 4px 8px;
+}
+
+.subsubsub {
+    margin: 12px 0;
+}
+
+/* Form Elements */
+.form-table input[type="text"],
+.form-table input[type="number"],
+.form-table input[type="time"] {
+    width: 250px;
+}
+
+.form-table textarea {
+    width: 100%;
+}
+
+/* Status Indicators */
+.status-active {
+    color: #00a32a;
+}
+
+.status-inactive {
+    color: #d63638;
+}
+
+/* Action Links */
+.row-actions {
+    color: #50575e;
+}
+
+.row-actions .delete {
+    color: #d63638;
+}
+
+/* Settings Sections */
+.delivium-settings-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.delivium-settings-section h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+/* Tooltips */
+.delivium-tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    color: #787c82;
+}
+
+.delivium-tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1d2327;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+/* Admin Settings Page */
+.delivium-settings-page {
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.delivium-settings-page .nav-tab-wrapper {
+    background: #fff;
+    border-bottom: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #e2e8f0;
+    border-bottom: none;
+}
+
+.delivium-settings-page .nav-tab {
+    margin: 0;
+    padding: 15px 25px;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.delivium-settings-page .nav-tab:hover {
+    color: #3b82f6;
+    background: #f8fafc;
+}
+
+.delivium-settings-page .nav-tab-active {
+    color: #3b82f6;
+    border-bottom: 3px solid #3b82f6;
+    background: #f8fafc;
+}
+
+.delivium-settings-page form {
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Settings Sections */
+.delivium-settings-page h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 1em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f1f5f9;
+    color: #1e293b;
+}
+
+.delivium-settings-page .form-table {
+    margin-top: 0;
+}
+
+.delivium-settings-page .form-table th {
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    color: #334155;
+    font-weight: 500;
+}
+
+.delivium-settings-page .form-table td {
+    padding: 15px 10px;
+}
+
+/* Form Elements */
+.delivium-settings-page input[type="text"],
+.delivium-settings-page input[type="password"],
+.delivium-settings-page input[type="email"],
+.delivium-settings-page input[type="number"],
+.delivium-settings-page input[type="tel"],
+.delivium-settings-page select,
+.delivium-settings-page textarea {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 8px 12px;
+    min-height: 36px;
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+}
+
+.delivium-settings-page input[type="text"]:focus,
+.delivium-settings-page input[type="password"]:focus,
+.delivium-settings-page input[type="email"]:focus,
+.delivium-settings-page input[type="number"]:focus,
+.delivium-settings-page input[type="tel"]:focus,
+.delivium-settings-page select:focus,
+.delivium-settings-page textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+    outline: none;
+}
+
+.delivium-settings-page .button-primary {
+    background: #3b82f6;
+    border-color: #2563eb;
+    color: #fff;
+    padding: 6px 20px;
+    height: auto;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.delivium-settings-page .button-primary:hover {
+    background: #2563eb;
+    border-color: #1d4ed8;
+}
+
+/* Provider Settings */
+.provider-settings {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.provider-settings h3 {
+    margin-top: 0;
+    color: #334155;
+    font-size: 1.2em;
+}
+
+/* Checkboxes and Radio Buttons */
+.delivium-settings-page input[type="checkbox"],
+.delivium-settings-page input[type="radio"] {
+    border: 2px solid #cbd5e1;
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+.delivium-settings-page input[type="checkbox"]:checked,
+.delivium-settings-page input[type="radio"]:checked {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+
+/* Description Text */
+.delivium-settings-page .description {
+    color: #64748b;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Store Hours Section */
+.store-hours-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.store-hours-row input[type="time"] {
+    width: 120px;
+}
+
+/* Success Message */
+.delivium-settings-page .notice-success {
+    border-left-color: #10b981;
+    background: #f0fdf4;
+    border-radius: 6px;
+}
+
+/* Premium Features Section */
+.premium-feature {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.premium-feature h3 {
+    color: #1e293b;
+    margin-top: 0;
+}
+
+.premium-feature .description {
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .delivium-settings-page .nav-tab {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+
+    .delivium-settings-page form {
+        padding: 20px;
+    }
+
+    .delivium-settings-page .form-table th {
+        padding: 15px 0 5px;
+        display: block;
+        width: 100%;
+    }
+
+    .delivium-settings-page .form-table td {
+        padding: 0 0 15px;
+    }
+
+    .store-hours-row {
+        flex-wrap: wrap;
+    }
+}
+
+/* Dashboard Widgets */
+.delivium-dashboard-widget {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.delivium-dashboard-widget h2 {
+    background: #f8fafc;
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+    color: #334155;
+}
+
+.delivium-dashboard-widget .inside {
+    padding: 20px;
+    margin: 0;
+}
+
+/* Stats Cards */
+.delivium-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.delivium-stat-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.delivium-stat-card h3 {
+    margin: 0 0 10px;
+    color: #64748b;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.delivium-stat-card .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+/* Status Indicators */
+.status-indicator {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-active {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-inactive {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-pending {
+    background: #fef3c7;
+    color: #92400e;
+} 

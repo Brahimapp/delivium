@@ -1,0 +1,75 @@
+# Copyright (C) 2024 Delivium
+# This file is distributed under the same license as the Delivium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Delivium 1.0.0\n"
+"Report-Msgid-Bugs-To: https://delivium.top/support\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: admin/class-delivium-admin.php:2117
+msgid "Driver assigned"
+msgstr "Водитель назначен"
+
+#: includes/class-delivium-orders.php:1051
+msgid "Out for delivery"
+msgstr "В пути"
+
+#: includes/class-delivium-orders.php:1052
+msgid "Failed delivery"
+msgstr "Неудачная доставка"
+
+#: includes/class-delivium-assigned-order-email-driver.php:74
+msgid "New delivery assigned"
+msgstr "Назначена новая доставка"
+
+#: includes/class-delivium-password.php:229
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
+#: includes/class-delivium-application.php:81
+msgid "Login"
+msgstr "Войти"
+
+#: admin/class-delivium-admin.php:2051
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-delivium-screens.php:778
+msgid "Driver Information"
+msgstr "Информация о водителе"
+
+#: includes/class-delivium-driver.php:718
+msgid "Name:"
+msgstr "Имя:"
+
+#: includes/class-delivium-driver.php:838
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: includes/class-delivium-reports.php:469
+msgid "Delivery Status"
+msgstr "Статус доставки"
+
+#: includes/class-delivium-order.php:853
+msgid "Order #%s"
+msgstr "Заказ #%s"
+
+#: includes/class-delivium-order.php:834
+msgid "Status:"
+msgstr "Статус:"
+
+#: includes/class-delivium-order.php:884
+msgid "Estimated Delivery:"
+msgstr "Ожидаемая доставка:"
+
+#: includes/class-delivium-order.php:713
+msgid "No order found."
+msgstr "Заказ не найден." 
